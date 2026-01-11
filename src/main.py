@@ -1,4 +1,4 @@
-from src.project3.main import my_function
+from .project3.main import my_function
 
 if __name__ == "__main__":
     my_result = my_function(1, 2)

@@ -2,11 +2,11 @@ import os
 
 # Instale o pacote: python-dotenv
 # Mostrei como no README.md
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 # Essa função DEVE ser carregada antes do import dos módulos
 # que forem usar variáveis de ambiente
-# load_dotenv()
+load_dotenv()
 
 
 def my_function(x: int, y: int) -> int:

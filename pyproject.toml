@@ -1,8 +1,9 @@
-[project]
 # TODO: Substitua pelo nome da pasta criada dentro de src/
 #(ex: name = "variavel_para_mudar")
 # Atenção sempre a versão do python que está a usar, para a que está 
 # aqui dentro
+
+[project]
 name = "project3"
 version = "0.1.0"
 description = "Descrição inicial do projeto"
@@ -12,7 +13,10 @@ license = { text = "MIT" }
 authors = [{ name = "Pedro Tenório", email = "pstsouza13@gmail.com" }]
 
 # Dependências de produção (adicione com 'uv add' ou manualmente)
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "rich>=14.2.0",
+]
 
 [project.urls]
 # TODO: Adicione o link do repositório quando ele existir
