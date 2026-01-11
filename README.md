@@ -37,13 +37,13 @@ uv init
 
 O uv cria o ambiente virtual (venv) e instala tudo automaticamente:
 
-- Sincronizar ambiente: uv sync
+- Sincronizar ambiente: `uv sync`
 
-- Adicionar pacotes: uv add requests ruff pyright
+- Adicionar pacotes: `uv add requests ruff pyright`
 
-- Remover pacotes: uv remove requests
+- Remover pacotes: `uv remove requests`
 
-- Importar de requirements.txt: uv add -r requirements.txt
+- Importar de requirements.txt: `uv add -r requirements.txt`
 
 ### 4. Execução
 
