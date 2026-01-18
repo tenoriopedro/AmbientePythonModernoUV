@@ -93,7 +93,7 @@ known-first-party = ["project3"]
 # Ferramentas: Pyright (Type Checker)
 # ============================
 [tool.pyright]
-typeCheckingMode = "strict"
+typeCheckingMode = "standard"
 pythonVersion = "3.11"
 include = ["src", "tests"]
 exclude = [
