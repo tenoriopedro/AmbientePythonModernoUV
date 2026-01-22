@@ -14,12 +14,12 @@ authors = [{ name = "Pedro Tenório", email = "pstsouza13@gmail.com" }]
 
 # Dependências de produção (adicione com 'uv add' ou manualmente)
 dependencies = [
-    "python-dotenv>=1.2.1",
+
 ]
 
 [project.urls]
 # TODO: Adicione o link do repositório quando ele existir
-# Homepage = "https://github.com/"
+Homepage = "https://github.com/tenoriopedro"
 
 [project.optional-dependencies]
 # Dependências de desenvolvimento padrão
