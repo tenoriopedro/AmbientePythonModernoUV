@@ -17,10 +17,6 @@ dependencies = [
 
 ]
 
-[project.urls]
-# TODO: Adicione o link do repositório quando ele existir
-Homepage = "https://github.com/tenoriopedro"
-
 [project.optional-dependencies]
 # Dependências de desenvolvimento padrão
 dev = [
@@ -46,12 +42,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/project3"]
-
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[tool.setuptools]
-package-dir = { "" = "src" }
 
 # ============================
 # Ferramentas: Ruff (Linter & Formatter)
